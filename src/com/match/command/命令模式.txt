@@ -1,0 +1,9 @@
+命令模式
+   将一个请求封装为一个对象，从而使我们可用不同的请求对客户进行参数化；对请求排队或者记录请求
+   日志，以及支持可以撤销的操作，也称之为：动作Action模式，事务transaction模式。
+结构：
+-Command抽象命令类
+-ConcreterCommand具体命令类
+-Invoker调用者/请求者
+-Receiver接收者
+-Client客户类
